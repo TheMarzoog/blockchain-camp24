@@ -1,4 +1,4 @@
-# Creating Student Chain code:
+# Creating Student Chaincode:
 ## Student Struct:
 - ID string
 - Name string

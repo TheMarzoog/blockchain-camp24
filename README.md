@@ -1,11 +1,13 @@
 # blockchain-camp24
 
 
+
 ## Blockchain Overview
 - [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)
 - [Blockchain Technology](https://chain.link/education-hub/blockchain)
 - [Distributed System](https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture)
 - [Blockchain Demo](https://andersbrownworth.com/blockchain/hash)
+- [Signature Demo](https://elearning.kba.ai/custom_app)
 
 #### Hashing & Cryptograpy
 
@@ -13,12 +15,12 @@
 // Tx creatation
 data = someData
 hash = SHA256(data)
-signature = Incrypte(hash, senderPrivateKey)
+signature = Encrypt(hash, senderPrivateKey)
 
 Tx = "data:hash:signature"
 
 // Tx validation
-validateHash = getHashFromSignature(signature, senderPublicKey)
+validateHash = Decrypt(signature, senderPublicKey)
 validateHash == Hash
 ```
 

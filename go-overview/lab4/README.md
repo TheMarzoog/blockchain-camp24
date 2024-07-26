@@ -1,26 +1,17 @@
-## Lab 4: Structs, Methods, and Go Modules
+## Lab 4: Functions in Go
 
 ### Objective
-Learn to define and use structs and methods to create and manipulate custom data types, and understand how to use Go modules.
+Learn to define and use functions in Go, including functions with single and multiple return values, handling errors, and understanding pass-by-value and pass-by-reference.
 
-### Tasks
-1. **Set Up Go Module**
-  - Create a new directory for the lab.
-  - Initialize a new Go module called `lab4` using the following command
-  ```sh
-  go mod init lab4
-  ```
 
-2. **Define a Struct**
-  - Create a directory called `model` and within it, create a directory called `horse`.
-  - Create a file named `horse.go` in the `model/horse` directory.
-  - Define a `Horse` struct with fields for name, breed, age, and speed.
+1. **Create a Function with a Single Return Value**
+  - Write a function `Subtract` that takes two integers and returns their difference.
 
-3. **Add Methods to the Struct**
-  - Create a constructor function `New` that returns a new horse.
-  - Add a `String` method to print a horse's details.
-  - Add a method `UpdateSpeed` to update the speed of the horse and return an error if the speed is negative.
+2. **Create a Function that Finds the Maximum Value in a Slice and Returns an Error**
+  - Write a function MaxInSlice that takes a slice of int
 
-4. **Use the Struct and Methods**
-  - Create a `main.go` file in the `lab4` directory.
-  - Import the `horse` package and use the `Horse` struct and its methods.
+3. **Create a Function to Modify a Value (Pass-by-Value)**
+  - Write a function `DoubleValue` that takes an integer and returns its double.
+
+4. **Create a Function to Modify a Value (Pass-by-Reference)**
+  - Write a function `DoubleValueInPlace` that takes a pointer to an integer and doubles its value.

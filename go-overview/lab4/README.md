@@ -9,6 +9,7 @@ Learn to define and use functions in Go, including functions with single and mul
 
 2. **Create a Function that Finds the Maximum Value in a Slice and Returns an Error**
   - Write a function MaxInSlice that takes a slice of int
+  - Return the max number and error. error if the slice is empty
 
 3. **Create a Function to Modify a Value (Pass-by-Value)**
   - Write a function `DoubleValue` that takes an integer and returns its double.

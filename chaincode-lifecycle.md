@@ -91,7 +91,7 @@ peer lifecycle chaincode queryinstalled
 
 Using the the package id from the output.
 ```sh
-export CC_PACKAGE_ID=studentcc_1.0:98fb171c4e730f4634170546a9259619456165c16a4e2207394d3240adc155b1
+export CC_PACKAGE_ID=studentcc_1.0:d533beca1d4dc2a907fcbb932012661c2e1aaf87bc27a4d5f309731312291912
 ```
 
 

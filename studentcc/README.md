@@ -8,9 +8,9 @@
 - ProjectGrade float
 
 ## Chaincode functions:
-- GetStudent
-- GetAllStudents
-- Register
+- GetStudent done
+- GetAllStudents done
+- Register done
 - UpdateEmail
 - UpdatePhone
 - ChangeCamp

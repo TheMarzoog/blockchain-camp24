@@ -8,6 +8,8 @@
 - ProjectGrade float
 
 ## Chaincode functions:
+- GetStudent
+- GetAllStudents
 - Register
 - UpdateEmail
 - UpdatePhone

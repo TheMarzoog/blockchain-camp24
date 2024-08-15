@@ -1,5 +1,6 @@
 # blockchain-camp24
-![camp image](cmap.jpeg)
+![camp image](https://github.com/TheMarzoog/blockchain-camp24/blob/main/camp.jpeg)
+
 **Blockchain Camp 2024**, part of the SEL Summer Camp, was an intensive 4-week program that immersed students in the foundational concepts of blockchain technology. The camp offered a thorough introduction to blockchain and Hyperledger Fabric, combined with practical training in the Go programming language. Participants actively developed chaincodes (smart contracts) using Go, and their projects were showcased at the end of the camp. To view the students' innovative work, see the projects section.
 
 ## Projects:

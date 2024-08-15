@@ -3,14 +3,15 @@ package handler
 import (
 	"fmt"
 	"studentcc/internal/model/student"
-	"studentcc/internal/repository/contract"
+
+	"studentcc/internal/repository/memory"
 
 	"github.com/hyperledger/fabric-contract-api-go/contractapi"
 )
 
 type StudentHandler struct {
-	// RepoContract memory.RepoMemory
-	contract.RepoContract
+	RepoContract memory.RepoMemory
+	// contract.RepoContract
 }
 
 func (h *StudentHandler) GetStudnet(ctx contractapi.TransactionContextInterface, ID string) (*student.Student, error) {
